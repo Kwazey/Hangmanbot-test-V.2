@@ -1,0 +1,25 @@
+{
+  "name": "hangbot",
+  "version": "1.0.0",
+  "description": "hangman bot with discord js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "hangbot.v2"
+  },
+  "keywords": [
+    "Discord",
+    "Bot",
+    "JavaScript"
+  ],
+  "author": "Kwasi",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.15.2",
+    "git": "^0.1.5",
+    "node.js": "^0.0.1-security"
+  }
+}
