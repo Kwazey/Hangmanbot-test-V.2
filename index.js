@@ -3,6 +3,7 @@ const path = require('node:path');
 const { Client, Events, GatewayIntentBits, Collection } = require('discord.js');
 const { token } = require('./config.json');
 //function {banana()} = require('./test.js');
+const { testings } = require('./test.js');
 
 // Create a new client instance
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
@@ -46,4 +47,5 @@ for (const file of eventFiles) {
 
 // Log in to Discord with your client's token
 client.login(token);
-//banana();
+testings();
+console.log(client)

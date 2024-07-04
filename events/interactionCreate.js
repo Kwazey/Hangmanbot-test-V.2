@@ -1,6 +1,6 @@
 const { Events } = require('discord.js');
 let count = 0
-//const { execute } = require('../commands/utility/test');
+
 
 //Receiving command interactions
 module.exports = {
@@ -18,10 +18,10 @@ module.exports = {
         }
 
         if (interaction.commandName == "start") {
-            const input = interaction.options.getString('input')
-            console.log("we can see that: " + input)
-            count = count +1
-            console.log("count is : " + count);
+            //const input = interaction.options.getString('input')
+            //console.log("we can see that: " + input)
+            //count = count +1
+            //console.log("count is : " + count);
         }
 
 
