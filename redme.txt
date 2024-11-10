@@ -1,0 +1,9 @@
+module.exports is how you export data in Node.js so that you can require() it in other files.
+
+If you need to access your client instance from inside a command file, you can access it via interaction.client. 
+If you need to access external files, packages, etc., you should require() them at the top of the file.
+
+node delete-commands.js to remove specific commands in specific servers.
+
+node deploy-commands.js to deploy new commands.
+Remove guild id in await rest function to deploy to ALL servers.

@@ -2,6 +2,7 @@ const { SlashCommandBuilder } = require('discord.js');
 const { execute } = require('./start');
 
 module.exports = {
+	category : 'utility',
 data: new SlashCommandBuilder()
 	.setName('echo')
 	.setDescription('Replies with your input!')

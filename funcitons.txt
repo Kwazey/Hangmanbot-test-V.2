@@ -1,0 +1,8 @@
+Check if letter is in errorhandling.
+A function to check the guessed letter against the word
+A function to check the guessed word agaist the word.
+Main loop????? probably actually in index.js
+
+chose random word out of list.
+
+
