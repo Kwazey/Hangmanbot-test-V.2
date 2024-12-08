@@ -8,6 +8,7 @@ const { testings } = require('./test.js');
 // Create a new client instance
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
+client.cooldowns = new Collection();
 
 load_commands(client, __dirname)
 load_events(client, __dirname)
@@ -15,5 +16,6 @@ load_events(client, __dirname)
 
 // Log in to Discord with your client's token
 client.login(token);
+Word_list = fs.readFileSync('Wordlist.txt', 'utf8').split("\r\n"); //use .split() to chose a character to define where a new piece of data starts
 testings();
 //console.log(client)
